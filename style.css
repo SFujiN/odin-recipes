@@ -2,3 +2,51 @@ img {
     height: auto;
     width: 300;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #8C8C80;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.description {
+    font-style: italic;
+}
+
+.header,
+.footer {
+    background-color: #AEC6CF;
+    padding: 16px;
+}
+
+.body {
+    flex: 1;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.card-container {
+    align-self: center;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background-color: #8C8C80;
+    color: beige;
+    width: 300px;
+    height: 200px;
+    padding: 16px;
+    border-radius: 8px;
+}
