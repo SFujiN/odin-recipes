@@ -25,7 +25,10 @@ a {
 .header,
 .footer {
     background-color: #AEC6CF;
+    color: beige;
     padding: 16px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .body {
@@ -34,6 +37,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    align-items: center;
 }
 
 .card-container {
